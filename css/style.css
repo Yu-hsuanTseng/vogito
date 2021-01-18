@@ -1,0 +1,99 @@
+@charset "utf-8";
+@keyframes fadein {
+    0% {top: 0px;}
+    100% {top: 220px;}
+  }
+
+.cover_set {
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 38%;
+    user-select: none;
+}
+
+.suggest_toy {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 2;
+    text-align: center;
+}
+
+.suggest_doll{
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 3;
+    text-align: center;
+}
+.suggest_helmet {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 4;
+    text-align: center;
+}
+.suggest_cat {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 5;
+    text-align: center;
+}
+.suggest_doll {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 6;
+    text-align: center;
+}
+.suggest_leather {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 7;
+    text-align: center;
+} 
+.suggest_head {
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left:34%;
+    z-index: 8;
+    text-align: center;
+}
+
+
+
+.img_set {
+    user-select: none;
+    width: 90%;
+}
+
+
+#circle-list
+			{
+
+			    position:absolute;
+			    margin-left: 35%;
+			    list-style:none;
+				width:60%;
+			}
+			
+			#circle-list div
+			{
+			    display:block;
+			    position:absolute;
+			    font-family:arial;
+                width:30%;
+			    text-align:center;
+			}
+			
